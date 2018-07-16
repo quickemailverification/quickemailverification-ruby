@@ -22,7 +22,7 @@ module QuickEmailVerification
         @options = {
           :base => "http://api.quickemailverification.com",
           :api_version => "v1",
-          :user_agent => "quickemailverification-ruby/1.0.1 (https://github.com/quickemailverification/quickemailverification-ruby)"
+          :user_agent => "quickemailverification-ruby/1.0.2 (https://github.com/quickemailverification/quickemailverification-ruby)"
         }
 
         @options.update(options)

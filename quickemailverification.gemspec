@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name        = "quickemailverification"
-  gem.version     = "1.0.1"
+  gem.version     = "1.0.2"
   gem.description = "Official QuickEmailVerification API library client for ruby."
   gem.summary     = "Official QuickEmailVerification API library client for ruby"
 

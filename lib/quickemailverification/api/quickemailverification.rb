@@ -22,6 +22,19 @@ module QuickEmailVerification
         @client.get("/verify?email=#{email}", body, options)
       end
 
+      # Return predefined response for predefined email address
+      #
+      # '/verify/sandbox?email=:email' GET
+      #
+      # email - send email address in query parameter
+      def sandbox(email, options = {})
+        body = options.fetch("query", {})
+	
+        email = CGI::escape(email)
+
+        @client.get("/verify/sandbox?email=#{email}", body, options)
+      end
+
     end
 
   end
